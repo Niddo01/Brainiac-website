@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainiac-Math tutoring</title>
+
+    <!--CSS Link-->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" />
+
+ <!--JavaScript Links-->
+ <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+ <script src="scripts.js"></script>
+ <script src="main.js"></script>
+
+</head>
+
+<!--Start of the body of the web site-->
+<body>
+    <!--Heading of the site-->
+
+<div id="navOne">
+        <nav>
+            <ul class="nav-links">
+              <li><a href="Library/library.html">Library</a></li>
+              <li><a href="#team">Team members</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#blogs">Blogs</a></li>
+              <li><a href="#giving">Giving to Brainiac</a></li>
+              <li><a href="#enquiries">Enquiries</a></li>
+              <li><a href="#studentEmail">Student Email</a></li>
+            </ul>
+          </nav>
+</div>
+
+<header>
+    <div class="header-content">
+       <a href=Images/Icons/Brainiac profile.png"" alt="Icon" id="icon"></a><!-- Add a class to the h1 element -->
+      </div>
+        <div class="social-media">
+            <a href="#"><img src="Images/Icons/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="Images/Icons/Twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="Images/Icons/instagram.png" alt="Instagram"></a>
+            </div>
+            
+    </header>
+
+    <!--Navigation menu-->
+    <nav id="navTwo">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!--Main body-->
+    <main>
+        <!--Introduction section-->
+        <section id="video">
+            
+            <section id="video">
+                <h1>Welcome to Brainic !</h1>
+                <p>Discover the  world of mathematics, this is your one-stop-shop for math tutoring. Whether you're struggling with algebra, geometry, trigonometry, or calculus, our expert tutors are here to help you work it out.</p>
+                <h2>Watch Our Video</h2>
+                <iframe src="Videos/Introduction video.mp4?autoplay=0" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen poster="preview-image.jpg"></iframe>                </section>
+                
+        
+
+        <!--About section-->
+        <section id="about">
+            <h2>About</h2>
+            <p>Brainiac is a math tutoring company founded in 2022 with the goal of helping students of all ages succeed in their math courses.</p>
+        </section>
+
+        <!--Services section-->
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>One-on-one tutoring</li>
+                <li>Group tutoring sessions</li>
+                <li>Online tutoring</li>
+                <li>Test prep</li>
+            </ul>
+        </section>
+
+        <!--Contact section-->
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="http://localhost:3000" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+                <p>Get in touch with us to schedule your first tutoring session!</p>
+                <img src="" alt="Contact image">
+        </section>
+
+        <!--Testimonial section-->
+
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <div id="carousel">
+            <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+            <li class="glide__slide">
+            <div class="testimonial">
+            <p>"Brainiac tutoring helped me improve my math grade from a C to an A!"</p>
+            <span class="author">- John Doe</span>
+            </div>
+            </li>
+            <li class="glide__slide">
+            <div class="testimonial">
+            <p>"I was struggling with calculus until I started working with Brainiac. Now I'm at the top of my class!"</p>
+            <span class="author">- Jane Smith</span>
+            </div>
+            </li>
+            <li class="glide__slide">Slide 3</li>
+            <!-- Add more slides as needed -->
+            </ul>
+            </div>
+            </div>
+            </div>
+            </section>
+            
+            
+            <!--blog section-->
+            <section id="blog">
+                <h2>Blog</h2>
+                <article>
+                <h3><a href="#">How to Improve Your Math Skills</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                <a href="#">Read More</a>
+                </article>
+                <article>
+                <h3><a href="#">Tips for Acing Your Next Math Exam</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                <a href="#">Read More</a>
+                </article>
+                </section>
+
+                <body>
+                    <main>
+                    <!-- Pricing section -->
+                    <section id="pricing">
+                    <h2>Pricing</h2>
+                    <table>
+                    <thead>
+                    <tr>
+                    <th>Package</th>
+                    <th>Price</th>
+                    <th>Features</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                    <td>Basic</td>
+                    <td>$49/month</td>
+                    <td>1 hour of tutoring per week</td>
+                    </tr>
+                    <tr>
+                    <td>Plus</td>
+                    <td>$99/month</td>
+                    </tr>
+                    </tbody>
+                    </table>
+                    </section>
+                    </main>
+                    
+                    <footer>
+                    <div class="container">
+                    <p>© 2023 Your Company Name. All rights reserved.</p>
+                    </div>
+                    </footer>
+                    </body>
+                    
+
+</body>
+</html>
+    </main>
+</body>
+</html>

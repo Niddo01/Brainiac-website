@@ -1,0 +1,950 @@
+/*Styling very top navbar*/
+#navOne {
+  background-color: red;
+  color: white;
+  padding: 0;
+  height: 40px;
+  position: relative;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px solid black;
+}
+#navOne ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+#navOne ul li a {
+  color: white;
+  text-decoration: none;
+}
+#navOne ul li a:hover {
+  color: #ffd700;
+}
+
+/*Styling whole body*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Styling header*/
+header {
+  background-color:  rgb(255, 15, 15);
+  padding: 0px;
+  height: 140px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #f2f2f2;
+}
+.header-content {
+  display: flex;
+  justify-content: start; /* Change this value to 'start' */
+align-items: center;
+  height: 100px;
+  padding-left: 50px;
+}
+
+#icon {
+  
+}
+
+.header-title {
+  color: white;
+  margin-bottom: 0;
+  padding-left: 50px; /* Adjust the left padding to accommodate the icon */
+position: relative;
+}
+
+.header-title:before {
+  content: "";
+  background: url('Images/Icons/Brainiac icon (1).png');
+  background-size: contain;
+  width: 48px;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  margin-right: 10px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin-right: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 2em;
+}
+#video h1 {
+  font-size: 3.0em;
+  margin-top: 10px;
+  color: #ff0000;
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 5px;
+  color: #ff0000;
+}
+
+h2 {
+  color: #b82d2d; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/*Styling navbar two*/
+#navTwo {
+  background-color: rgb(233, 3, 3)
+  ;
+  color: white;
+  padding: 5px 0;
+  height: 35px;
+  position: relative;
+  width: 100%;
+}
+#navTwo ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+#navTwo ul li a {
+  color: white;
+  text-decoration: none;
+}
+#navTwo ul li a:hover {
+  color: #ffd700;
+}
+
+section {
+  margin-bottom: 20px;
+}
+img {
+  max-width: 100%;
+}
+
+/*styles for/*Styling very top navbar*/
+#navOne {
+  background-color: red;
+  color: white;
+  padding: 0;
+  height: 40px;
+  position: relative;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px solid black;
+}
+#navOne ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+#navOne ul li a {
+  color: white;
+  text-decoration: none;
+}
+#navOne ul li a:hover {
+  color: #ffd700;
+}
+
+/*Styling whole body*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Styling header*/
+header {
+  background-color:  rgb(255, 15, 15);
+  padding: 0px;
+  height: 140px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #f2f2f2;
+}
+.header-content {
+  display: flex;
+  justify-content: start; /* Change this value to 'start' */
+align-items: center;
+  height: 100px;
+  padding-left: 50px;
+}
+
+#icon {
+  
+}
+
+.header-title {
+  color: white;
+  margin-bottom: 0;
+  padding-left: 50px; /* Adjust the left padding to accommodate the icon */
+position: relative;
+}
+
+.header-title:before {
+  content: "";
+  background: url('Images/Icons/Brainiac icon (1).png');
+  background-size: contain;
+  width: 48px;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  margin-right: 10px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin-right: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 2em;
+}
+#video h1 {
+  font-size: 3.0em;
+  margin-top: 10px;
+  color: #ff0000;
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 5px;
+  color: #ff0000;
+}
+
+h2 {
+  color: #b82d2d; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/*Styling navbar two*/
+#navTwo {
+  background-color: rgb(233, 3, 3)
+  ;
+  color: white;
+  padding: 5px 0;
+  height: 35px;
+  position: relative;
+  width: 100%;
+}
+#navTwo ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+#navTwo ul li a {
+  color: white;
+  text-decoration: none;
+}
+#navTwo ul li a:hover {
+  color: #ffd700;
+}
+
+section {
+  margin-bottom: 20px;
+}
+img {
+  max-width: 100%;
+}
+
+/*styles for/*Styling very top navbar*/
+#navOne {
+  background-color: red;
+  color: white;
+  padding: 0;
+  height: 40px;
+  position: relative;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px solid black;
+}
+#navOne ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+#navOne ul li a {
+  color: white;
+  text-decoration: none;
+}
+#navOne ul li a:hover {
+  color: #ffd700;
+}
+
+/*Styling whole body*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Styling header*/
+header {
+  background-color:  rgb(255, 15, 15);
+  padding: 0px;
+  height: 140px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #f2f2f2;
+}
+.header-content {
+  display: flex;
+  justify-content: start; /* Change this value to 'start' */
+align-items: center;
+  height: 100px;
+  padding-left: 50px;
+}
+
+#icon {
+  
+}
+
+.header-title {
+  color: white;
+  margin-bottom: 0;
+  padding-left: 50px; /* Adjust the left padding to accommodate the icon */
+position: relative;
+}
+
+.header-title:before {
+  content: "";
+  background: url('Images/Icons/Brainiac icon (1).png');
+  background-size: contain;
+  width: 48px;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  margin-right: 10px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin-right: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 2em;
+}
+#video h1 {
+  font-size: 3.0em;
+  margin-top: 10px;
+  color: #ff0000;
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 5px;
+  color: #ff0000;
+}
+
+h2 {
+  color: #b82d2d; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/*Styling navbar two*/
+#navTwo {
+  background-color: rgb(233, 3, 3)
+  ;
+  color: white;
+  padding: 5px 0;
+  height: 35px;
+  position: relative;
+  width: 100%;
+}
+#navTwo ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+#navTwo ul li a {
+  color: white;
+  text-decoration: none;
+}
+#navTwo ul li a:hover {
+  color: #ffd700;
+}
+
+section {
+  margin-bottom: 20px;
+}
+img {
+  max-width: 100%;
+}
+
+/*styles for/*Styling very top navbar*/
+#navOne {
+  background-color: red;
+  color: white;
+  padding: 0;
+  height: 40px;
+  position: relative;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px solid black;
+}
+#navOne ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+#navOne ul li a {
+  color: white;
+  text-decoration: none;
+}
+#navOne ul li a:hover {
+  color: #ffd700;
+}
+
+/*Styling whole body*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Styling header*/
+header {
+  background-color:  rgb(255, 15, 15);
+  padding: 0px;
+  height: 140px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #f2f2f2;
+}
+.header-content {
+  display: flex;
+  justify-content: start; /* Change this value to 'start' */
+align-items: center;
+  height: 100px;
+  padding-left: 50px;
+}
+
+#icon {
+  
+}
+
+.header-title {
+  color: white;
+  margin-bottom: 0;
+  padding-left: 50px; /* Adjust the left padding to accommodate the icon */
+position: relative;
+}
+
+.header-title:before {
+  content: "";
+  background: url('Images/Icons/Brainiac icon (1).png');
+  background-size: contain;
+  width: 48px;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  margin-right: 10px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin-right: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 2em;
+}
+#video h1 {
+  font-size: 3.0em;
+  margin-top: 10px;
+  color: #ff0000;
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 5px;
+  color: #ff0000;
+}
+
+h2 {
+  color: #b82d2d; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/*Styling navbar two*/
+#navTwo {
+  background-color: rgb(233, 3, 3)
+  ;
+  color: white;
+  padding: 5px 0;
+  height: 35px;
+  position: relative;
+  width: 100%;
+}
+#navTwo ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+#navTwo ul li a {
+  color: white;
+  text-decoration: none;
+}
+#navTwo ul li a:hover {
+  color: #ffd700;
+}
+
+section {
+  margin-bottom: 20px;
+}
+img {
+  max-width: 100%;
+}
+
+/*styles for/*Styling very top navbar*/
+#navOne {
+    background-color: red;
+    color: white;
+    padding: 0;
+    height: 40px;
+    position: relative;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid black;
+  }
+  #navOne ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  #navOne ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  #navOne ul li a:hover {
+    color: #ffd700;
+  }
+  
+  /*Styling whole body*/
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /*Styling header*/
+  header {
+    background-color:  rgb(255, 15, 15);
+    padding: 0px;
+    height: 140px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #f2f2f2;
+  }
+  .header-content {
+    display: flex;
+    justify-content: start; /* Change this value to 'start' */
+  align-items: center;
+    height: 100px;
+    padding-left: 50px;
+  }
+
+  #icon {
+    
+  }
+  
+  .header-title {
+    color: white;
+    margin-bottom: 0;
+    padding-left: 50px; /* Adjust the left padding to accommodate the icon */
+  position: relative;
+  }
+  
+  .header-title:before {
+    content: "";
+    background: url('Images/Icons/Brainiac icon (1).png');
+    background-size: contain;
+    width: 48px;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    margin-right: 10px;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    margin-right: 10px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  h1 {
+    margin-bottom: 0;
+    font-size: 2em;
+  }
+  #video h1 {
+    font-size: 3.0em;
+    margin-top: 10px;
+    color: #ff0000;
+  }
+
+  p {
+    font-size: 1.2em;
+    margin-top: 5px;
+    color: #ff0000;
+  }
+
+  h2 {
+    color: #b82d2d; 
+  }
+
+  h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+  
+  /*Styling navbar two*/
+  #navTwo {
+    background-color: rgb(233, 3, 3)
+    ;
+    color: white;
+    padding: 5px 0;
+    height: 35px;
+    position: relative;
+    width: 100%;
+  }
+  #navTwo ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  #navTwo ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  #navTwo ul li a:hover {
+    color: #ffd700;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  img {
+    max-width: 100%;
+  }
+
+/*styles for the form */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+label {
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.testimonial {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.testimonial p {
+    font-style: italic;
+}
+.testimonial .author {
+    font-weight: bold;
+}
+
+article {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+article h3 {
+    margin-bottom: 10px;
+}
+article a {
+    display: block;
+    text-decoration: none;
+    color: #0066c0;
+}
+
+/* advanced styles */
+
+section {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Pricing table styles */
+#pricing table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#pricing th,
+#pricing td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+#pricing th {
+    background-color: #f8d7da;
+    font-weight: bold;
+}
+#pricing tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* Parallax scrolling effect for header */
+header {
+    background-image: url('header-image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* CSS transitions */
+nav ul li a,
+input[type="submit"] {
+    transition: background-color 0.3s ease;
+}
+
+/* Video section */
+
+#video iframe {
+    position: relative;
+    top: 0px;
+    left: 400px;
+    right: 30px;
+    width:650px;
+    height: 370px;
+    border: 0;
+}
+
+#video {
+    position: relative;
+    padding: 0;
+}
+
+#carousel {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.glide__slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #0066c0;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.social-media a img {
+    width: 40px; /* Adjust this value to change the icon size */
+  height: 25px; /* Adjust this value to change the icon size */
+  margin: 0 0.5rem; /* Adds some spacing between the icons */
+  }
+  
+  footer {
+    background-color: #f2f2f2; /* Choose a background color for the footer */
+  padding: 15px 0; /* Add some padding to the top and bottom of the footer */
+  text-align: center; /* Center the text within the footer */
+  }
+  
+  footer p {
+    font-size: 14px; /* Adjust the font size for the copyright text */
+  color: #666; /* Choose a text color for the copyright text */
+  margin: 0; /* Remove the default margin for paragraphs */
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1200px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container on the page */
+  padding: 0 15px; /* Add some padding to the left and right sides of the container */
+  }
+  
